@@ -1,0 +1,59 @@
+{
+  "name": "angular2-webpack",
+  "version": "0.0.1",
+  "description": "angular2-webpack",
+  "repository": {     
+  },
+  "private": false,
+  "license": "MIT",
+
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1",
+    "awesome-typescript-loader": "^2.2.1",    
+    
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    
+    "gulp": "^3.9.1",
+    "gulp-util": "~2.2.9",
+
+    "css-loader": "0.23.1",
+    "style-loader": "0.13.1",
+
+    "karma": "^0.13.19",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-typescript-preprocessor2": "^1.1.1",
+    "karma-webpack": "^1.7.0",
+    "karma-spec-reporter": "^0.0.26",
+
+    "jasmine-core": "^2.5.2",
+    "karma-jasmine": "^1.0.2",
+
+    "@angular/common": "~2.0.2",
+    "@angular/compiler": "~2.0.2",
+    "@angular/core": "~2.0.2",
+    "@angular/forms": "~2.0.2",
+    "@angular/http": "~2.0.2",
+    "@angular/platform-browser": "~2.0.2",
+    "@angular/platform-browser-dynamic": "~2.0.2",
+    "@angular/router": "~3.0.2",
+    "@angular/upgrade": "~2.0.2",
+    "angular-in-memory-web-api": "~0.1.5",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25",
+
+    "harmony-collections": "0.3.8"            
+  },
+
+  "scripts": {   
+    "postinstall": "typings install",
+    "typings": "typings",
+    "build": "gulp",
+    "dev": "gulp dev",
+    "test": "karma start"
+  }
+}

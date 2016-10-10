@@ -1,0 +1,5 @@
+---
+typings install dt~es6-shim --save --global
+---
+typings install dt~jasmine --save --global
+---
