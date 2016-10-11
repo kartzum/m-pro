@@ -1,4 +1,3 @@
-
 {
-  "plugins": ["transform-flow-strip-types"]
+  "plugins": ["typecheck", "syntax-flow", "transform-flow-strip-types"]
 }
