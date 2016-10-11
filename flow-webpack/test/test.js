@@ -1,3 +1,5 @@
+// @flow
+
 import { Writer } from "../src/writer";
 
 describe("A suite", function() {
