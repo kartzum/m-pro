@@ -15,9 +15,10 @@ module.exports = {
         loaders: [
             {
                 test: /\.(js|jsx)$/,
-                loader: 'babel-loader',
+                loader: 'babel',
                 query: {
-                    presets: ['es2015', 'react', 'stage-1']
+                    presets: ['es2015', 'react', 'stage-1'],
+                    plugins: ['typecheck', 'syntax-flow', 'transform-flow-strip-types']
                 }
             },
             {test: /\.css$/, loader: "style!css"}
