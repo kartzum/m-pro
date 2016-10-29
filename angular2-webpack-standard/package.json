@@ -42,7 +42,9 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.8.0",
     "phantomjs-prebuilt": "^2.1.7",
-    "jasmine-core": "^2.4.1"
+    "jasmine-core": "^2.4.1",
+    "@types/es6-shim": "0.31.32",
+    "@types/jasmine": "^2.4.1"
   },
   "scripts": {
     "postinstall": "typings install",
