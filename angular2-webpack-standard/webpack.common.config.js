@@ -12,10 +12,10 @@ module.exports = {
         filename: "./dist/[name].bundle.js"
     },
     resolve: {
-        extensions: ["", ".js", ".ts"]
+        extensions: [".js", ".ts"]
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 loaders: ["awesome-typescript-loader", "angular2-template-loader"]
